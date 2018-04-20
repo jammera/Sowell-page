@@ -1,0 +1,72 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	font-size: 1em;
+	.display-2 {
+		font-size: 2em;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	font-size: 1.5em;
+	.display-2 {
+		font-size: 3em;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	font-size: 1.8em;
+	.display-2 {
+		font-size: 3.5em;
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	font-size: 2.2em;
+	.display-2 {
+		font-size: 5em;
+	}
+}
+
+.nav-item > a {
+    border-right: 1px solid #4B698B;
+}
+.navbar-toggler[aria-expanded="true"] {
+  .nav-item > a {
+		border-right: 0;
+	}
+  
+}
+
+.nav-item:last-child > a {
+    border-right: 0;
+}
+
+.bg { 
+    background-image: url("Tom_6.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer {
+	background: radial-gradient(rgba(114, 140, 166, 0.1), rgba(19, 52, 83, 0.9));
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1, p {
+	color: white !important;
+	
+}
+
+h1 {
+	text-shadow: #ffffff 0 0 5px;
+}
+
