@@ -33,13 +33,14 @@
 .nav-item > a {
     border-right: 1px solid #4B698B;
 }
+/*
 .navbar-toggler[aria-expanded="true"] {
   .nav-item > a {
 		border-right: 0;
 	}
   
 }
-
+--- this doensn't work --- */
 .nav-item:last-child > a {
     border-right: 0;
 }
